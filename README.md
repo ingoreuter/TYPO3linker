@@ -2,7 +2,7 @@
 ##What does this script do?
 This script creates all needed symbolic links for a TYPO3 setup, if you have the source folder outside your web root.
 
-**Only TYPO3 6.X is supported. Do not use this script for TYPO3 4.X** 
+**Only TYPO3 6.X and 7.X are supported (it is not tested with TYPO3 8.X). Do not use this script for TYPO3 4.X** 
 
 ## How to uese this script
 
