@@ -11,7 +11,7 @@ This script creates all needed symbolic links for a TYPO3 setup, if you have the
 - Upload the zip-file to your server
 - Unpack the zip-file to the destination, where you want to have the TYPO3 sources
 	- The source folder is most likely outside your web root.
-	- Now you should have a folder like "typo3_src-6.x.x". The folder contains (at least) the files "\_.htaccess",  "index.php" and a folder "typo3".
+	- Now you should have a folder like "typo3_src-6.x.x" or "typo3_src-7.x.x". The folder contains (at least) the files "\_.htaccess",  "index.php" and a folder "typo3".
 
 ### Use this script
 In order to have the TYPO3 source accessible in your web root, upload this script to your web root. If you have not renamed this script, it should be accessible through www.yourDoamin.tdl/linker.php
@@ -22,7 +22,7 @@ Follow these steps to create the needed symbolic links (it is quite simple).
 
 - Upload the script to your web root
 - Run the script in your browser by www.yourDomain.tdl/linker.php
-- Navigate to the TYPO3 source folder. (This is the folder form the first part. It should be named like "typo3_src-6.x.x".)
+- Navigate to the TYPO3 source folder. (This is the folder form the first part. It should be named like "typo3_src-6.x.x" or "typo3_src-7.x.x".)
 - After you have navigated to the source (you have to see the folders content in your browser!), click the button "Link this folder as TYPO3 source".
 - If everything goes right, you are done!
 
